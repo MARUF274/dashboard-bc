@@ -1,0 +1,25 @@
+{
+  "name": "dashboard-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@amcharts/amcharts5": "^5.4.11",
+    "@hope-ui/solid": "^0.6.7",
+    "@stitches/core": "^1.2.8",
+    "ag-grid-community": "^30.2.0",
+    "ag-grid-solid": "^30.2.0",
+    "solid-js": "^1.7.8",
+    "solid-transition-group": "^0.0.10"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-solid": "^2.7.0"
+  }
+}
